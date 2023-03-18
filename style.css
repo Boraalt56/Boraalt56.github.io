@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Explora&family=Julee&family=Lobster&family=Nanum+Gothic&family=Pacifico&family=Satisfy&family=Shantell+Sans:wght@300&family=Work+Sans:wght@100&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.ecran{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/bground.png);
+    background-position:center ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ecran img{
+    width: 180px;
+    height: 280px;
+}
+.description{
+    color: rgb(252, 255, 253);
+}
+.paper{
+    width: 90%;
+    max-width: 490px;
+    color: white;
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0, 2);
+    backdrop-filter: blur(5px);
+}
+.paper h2{
+    font-size: 50px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.paper p{
+    font-size: 20px;
+    margin: 10px;
+    max-width: 500px;
+}
+.ecran .reseau img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5s;
+}
+.ecran .reseau img:hover{
+    background-color: rgb(0, 217, 255);
+}
+.button{
+    color: rgb(169, 47, 47);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
+.button:hover{
+    background-color: rgb(0, 217, 255);
+    font-size:23px ;
+}
