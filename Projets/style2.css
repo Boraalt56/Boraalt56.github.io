@@ -18,7 +18,7 @@ body{
 nav{
     position: absolute;
     margin-top: -95vh;
-    margin-left: -190vh;
+    margin-left: -177vh;
 }
 nav a{
     color: white;
@@ -56,7 +56,7 @@ a{
 }
 .projet{
     margin-top: 17vh;
-    margin-left:-135vh; 
+    margin-left:-125vh; 
     text-decoration:overline;
     color:  rgb(45, 142, 206);
     font-size: 33px;
